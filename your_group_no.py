@@ -77,3 +77,7 @@ import os
 # run the file combine_2.ipynb to generate the final predictions
 os.system("jupyter nbconvert --to script combine_1.ipynb")
 os.system("python combine_1.py")
+os.system("jupyter nbconvert --to script embed_rf.ipynb")
+os.system("python embed_rf.py")
+os.system("jupyter nbconvert --to script emoji_exp.ipynb")
+os.system("python emoji_exp.py")
