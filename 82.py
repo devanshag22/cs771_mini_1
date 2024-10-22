@@ -75,7 +75,9 @@
 import os
 
 # run the file combine_2.ipynb to generate the final predictions
-os.system("python combine_final.py")
-os.system("python deepfeat_final.py")
-os.system("python emoticon_final.py")
+# os.system("python combine_final.py")
+# os.system("python deepfeat_final.py")
+# os.system("python emoticon_final.py")
 
+# convert embede_rf.ipynb to python file
+os.system("jupyter nbconvert --to script sequence_xg_ada_simplernn.ipynb")
